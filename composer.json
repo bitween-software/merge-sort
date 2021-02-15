@@ -1,0 +1,30 @@
+{
+    "name": "bitween/merge-sort",
+    "description": "A simple example of a divide and conquer algorithm: merge sort. Example is used to explain the divide and conquer technique.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Jarno Vogelzang - Bitween",
+            "email": "info@bitween.tech",
+            "homepage": "https://bitween.software"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bitween\\": "src",
+            "Tests\\": "tests"
+        }
+    },
+    "keywords": [
+        "Merge sort",
+        "PHP",
+        "Bitween",
+        "Divide and conquer",
+        "Functional decomposition",
+        "Sorting"
+    ]
+}
